@@ -1,0 +1,312 @@
+
+/*common css start*/
+body{
+
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common css end*/
+
+/*header start*/
+/* logo and menu option starts from here */
+header {
+    width: 100%;
+    padding: 30px 0;
+   
+    
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 10%;
+    color: black;
+    float: left;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.menu {
+    width: 65%;
+    float: right;
+}
+
+.menu ul {
+    
+    margin: 0;
+	float: right;
+	padding: 15px 0;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+    margin: 0 50px;
+    padding: 5px 0px;
+    color: #626262;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.33s;
+    border-bottom: 1px solid transparent;
+    
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+
+/* logo and menu option ends here */
+
+/*header end*/
+/* banner section start  */
+.banner{
+    padding-bottom: 60px;
+}
+.banner_content{}
+.banner_content img{
+    width: 100%;
+}
+
+/* banner section end  */
+
+/* getaway section start */
+.getaway{
+    padding: 70px 0;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+.getaway_content{}
+
+.c_light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 14px;
+    font-weight: 300px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+
+}
+.c_title{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+}
+.c_text{
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+/* getaway section ends here */
+
+/* blog section starts from here */
+.blog{
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+.blog_content{
+   
+    overflow: hidden;
+}
+/* card 1 starts from here */
+.card1{
+    width: 47%;
+    float: left;
+    padding-bottom: 60px;
+   
+}
+.card1:nth-child(even){
+    margin-left: 6%;
+    
+}
+.card1_img{
+    margin-bottom: 30px;
+}
+.card1_img img{
+    width: 100%;
+}
+.headline{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 14px;
+    font-weight: 300px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.blog_title{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.blog_para{
+    line-height: 25px;
+}
+/* blog section ends here */
+
+/* newsletter section start */
+.newsletter{
+    margin-bottom: 20px;
+    padding: 70px 0;
+    background-color: #f0f0f0;
+}
+
+.signup {
+    text-align: center;
+}
+
+
+.s_h1{
+    color:#333333;
+    margin: 0 0 70px;
+}
+
+.s_form{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    
+}
+.s_form input{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: none;
+}
+
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 18px;
+    right: 0;
+
+}
+.s_form button:focus{
+    outline: 0;
+}
+
+
+
+/* newsletter section end */
+
+/* blog 2 section start  */
+
+
+
+.blog_button{
+    margin: 130px 0 130px;
+    text-align: center;
+    
+}
+.h_button{
+    width: 165px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+    cursor: pointer;
+    transition: 0.33s;
+
+}
+
+.h_button:hover{
+    background: #626262;
+	color: #f4f4f4;
+}
+/* blog2 section ends */
+
+/* footer section starts from here */
+footer{
+    padding: 15px 0;
+    background-color: #f0f0f0;
+}
+.terms{
+   width:30%;
+   float: left;
+}
+.terms ul li{
+
+    display: inline-block;
+    list-style: none;
+}
+.ul_class {
+  margin: 0;
+  padding: 15px 0;
+}	
+
+
+.ul_class li a{
+	margin: 0 25px;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.terms ul li{
+display: inline-block;
+list-style: none;
+}
+
+
+.terms ul li :first-child a{
+    margin-left: 0;
+}
+.social{
+    width: 30%;
+    float: right;
+}
+.social ul{
+    float: right;
+}
+.social ul li{
+    
+    list-style: none;
+    float: left;
+}
+.social ul li span{
+    color: #000000
+}
+.social ul li:last-child a {
+    margin-right: 0px;
+}
+/* footer section ends here */
+
+
+
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
